@@ -1,3 +1,11 @@
+* h3 {
+  color: #E2A200;
+}
+
+* p {
+  color: #ffffffc9;
+}
+
 body {
   background-color: #22212C;
   font-family: 'Rubik', sans-serif;
@@ -5,54 +13,85 @@ body {
   }
   
   .card-principal {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: flex; flex-direction: column; align-items: center;
     justify-content: center;
-    width: 348px;
-    height: 292px;
-    background: #302F3D;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    width: 348px; height: 292px;
+    background: #302F3D; box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
   }
   
   .card-principal  h3 {
-    color: #E2A200;
     margin-bottom: -10px;
-  }
-  .card-principal  p {
-    color: #837E9F;
+    font-size: 20px;
   }
   
   #foto-perfil {
-    width: 128px;
-    height: 128px;
-    
-    border: 2px solid #E2A200;
-    border-radius: 5em;
-    padding: 4px;
+    width: 128px; height: 128px; padding: 4px;
+    border: 2px solid #E2A200; border-radius: 70px;
   }
   
   .card-icones {
-    
-    display: flex;
-    align-items: center;
-    width: 348px;
-    height: 348px;
-    margin-top: 30px;
-  
-    background: #302F3D;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    width: 348px; margin-top: 30px; padding: 18px;
+    background: #302F3D; box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
   }
    
-  .card-icones img {
-    width: 24px;
-    height: 24px;
+  .card-icones div {
+    display: flex;
   }
-  
+
   .card-icones p {
     font-size: 16px;
-    color: #837E9F;
+    margin-left: 8px;
   }
-  
+
+  .card-ferramentas {
+    display: flex; flex-wrap: wrap;
+    width: 312px; margin-top: 30px; padding: 18px;
+    background: #302F3D; box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+  }
+
+  .card-ferramentas h3 {
+    margin-right: 160px;
+    font-size: 20px;
+  }
+
+  .card-ferramentas p {
+    font-size: 16px;
+    background-color: #E2A200; border-radius: 4px;
+    min-width: 40px; max-width: 80px;
+    margin: 8px; padding: 6px;
+  }
+
+  .card-experiencias {
+    box-sizing: border-box;
+    width: 348px; margin-top: 30px; padding: 18px;
+    background: #302F3D; box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+  }
+  .card-experiencias p {
+    font-size: 12px;
+    margin: 2px;
+  }
+
+  .card-experiencias li {
+    font-size: 16px; color: #ebb11ee8;
+  }
+
+  .card-formacoes {
+    box-sizing: border-box;
+    width: 348px; margin-top: 30px; padding: 18px;
+    background: #302F3D; box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+  }
+
+  .card-formacoes li {
+    font-size: 16px; color: #ebb11ee8;
+  }
+
+  .card-formacoes p {
+    font-size: 12px;
+    margin: 2px;
+  }
