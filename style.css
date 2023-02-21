@@ -1,74 +1,73 @@
-* h3 {
+  * h3 {
   color: #E2A200;
 }
 
-* p {
+  * p {
   color: #ffffffc9;
 }
 
-body {
+  body {
   background-color: #22212C;
   font-family: 'Rubik', sans-serif;
-  padding: 10px;
+  max-width: 1440px;
+  margin: 40px;
   }
   
-  .card-principal {
-    display: flex; 
-    flex-direction: column; 
-    align-items: center;
-    justify-content: center;
-    width: 348px; 
-    height: 292px;
+   .global {
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+   }
+   
+   .card-perfil {
     background: #302F3D; 
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
-  }
-  
-  .card-principal  h3 {
-    margin-bottom: -10px;
-    font-size: 20px;
-  }
-  
-  #foto-perfil {
+    width: 340px;
+    height: 290px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+
+   #foto-perfil {
     width: 128px; 
     height: 128px; 
     padding: 4px;
     border: 2px solid #E2A200; 
     border-radius: 70px;
   }
-  
-  .card-icones {
-    box-sizing: border-box;
-    width: 348px; 
-    margin-top: 30px; 
-    padding: 18px;
+
+   .card-icones {
     background: #302F3D; 
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
-  }
-   
-  .card-icones div {
+    max-width: 340px;
+    margin-bottom: 16px;
+    padding: 16px;
+    flex-direction: column;
+   }
+
+   .card-icones div {
     display: flex;
   }
 
-  .card-icones p {
-    font-size: 16px;
-    margin-left: 8px;
+   .card-icones p {
+  font-size: 16px;
+  margin-left: 8px;
   }
 
-  .card-ferramentas {
-    display: flex; 
-    flex-wrap: wrap;
-    width: 312px; 
-    margin-top: 30px; 
-    padding: 18px;
+   .card-ferramentas { 
     background: #302F3D; 
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
+    margin-bottom: 16px;
+    padding: 16px;
   }
 
   .card-ferramentas h3 {
-    margin-right: 160px;
     font-size: 20px;
   }
 
@@ -76,47 +75,79 @@ body {
     font-size: 16px;
     background-color: #E2A200; 
     border-radius: 4px;
-    min-width: 40px; 
-    max-width: 80px;
     margin: 8px; 
     padding: 6px;
   }
 
-  .card-experiencias {
-    box-sizing: border-box;
-    width: 348px; 
-    margin-top: 30px; 
-    padding: 18px;
+  .card-experiencias { 
     background: #302F3D; 
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
+    width: 340px;
+    height: 340px;
+    margin-bottom: 16px;
+    flex-direction: column;
   }
-  .card-experiencias p {
-    font-size: 12px;
-    margin: 2px;
-  }
-
-  .card-experiencias li {
-    font-size: 16px; 
-    color: #ebb11ee8;
-  }
-
-  .card-formacoes {
-    box-sizing: border-box;
-    width: 348px; 
-    margin-top: 30px; 
-    padding: 18px;
-    background: #302F3D;
+  .card-formacoes { 
+    background: #302F3D; 
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
+    width: 340px;
+    height: 340px;
+    margin-bottom: 16px;
+    flex-direction: column;
+  }
+  .card-projetos {
+    background: #302F3D; 
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    width: 900px;
+    height: 80px;
+    margin-bottom: 16px;
+    
+  }
+   .coluna-secundaria {
+  margin-left: 40px;
   }
 
-  .card-formacoes li {
-    font-size: 16px; 
-    color: #ebb11ee8;
+  .card-duplo {
+    display: flex;
+    flex-direction: row;
+    
   }
-
-  .card-formacoes p {
-    font-size: 12px;
-    margin: 2px;
+  .card-um {
+    background: #302F3D; 
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    width: 50%;
+    height: 200px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+  }
+  .card-dois{
+    background: #302F3D; 
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    width: 50%;
+    height: 200px;
+    margin-bottom: 16px;
+    
+  }
+  .card-postagem-recente {
+    background: #302F3D; 
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    width: 900px;
+    height: 80px;
+    margin-bottom: 16px;
+    
+  }
+  .card-ultima-postagem {
+    background: #302F3D; 
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    width: 900px;
+    height: 200px;
+    margin-bottom: 16px;
+    
   }
