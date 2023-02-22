@@ -6,6 +6,9 @@
   color: #ffffffc9;
 }
 
+* li {
+  color: #ffffffc9;
+}
   body {
   background-color: #22212C;
   font-family: 'Rubik', sans-serif;
@@ -65,38 +68,62 @@
     border-radius: 20px;
     margin-bottom: 16px;
     padding: 16px;
+
   }
 
-  .card-ferramentas h3 {
-    font-size: 20px;
-  }
+ .card-ferramentas div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ }
 
-  .card-ferramentas p {
+ .card-ferramentas h3 {
+  font-size: 20px;
+  margin-right: 100px;
+}
+
+  .ferramentas {
     font-size: 16px;
     background-color: #E2A200; 
     border-radius: 4px;
-    margin: 8px; 
-    padding: 6px;
+    max-width: 100px;
+    min-width: 86px;
+    max-height: 140px;
+    min-height: 60px;
+    margin: 8px;
+    justify-content: center;
+    align-items: center;
   }
-
+    
   .card-experiencias { 
     background: #302F3D; 
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     width: 340px;
-    height: 340px;
+   
     margin-bottom: 16px;
     flex-direction: column;
+  }
+  .card-experiencias div {
+    padding: 16px;
+  }
+  .card-experiencias p {
+    margin-top: 6px;
   }
   .card-formacoes { 
     background: #302F3D; 
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     width: 340px;
-    height: 340px;
     margin-bottom: 16px;
     flex-direction: column;
   }
+.card-formacoes div {
+  padding: 16px;
+}
+.card-formacoes p {
+  margin-top: 6px;
+}
   .card-projetos {
     background: #302F3D; 
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
