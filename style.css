@@ -1,4 +1,4 @@
-  * h3 {
+  * h3, h4 {
   color: #E2A200;
 }
 
@@ -33,6 +33,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+   }
+   
+   #p-perfil {
+    margin: 0;
    }
 
    #foto-perfil {
@@ -131,8 +135,23 @@
     width: 900px;
     height: 80px;
     margin-bottom: 16px;
-    
+    display: flex;
+    }
+  .card-projetos div {
+    display: flex;
+    flex-direction: row;
+    margin: 28px;
+    align-items: center;
   }
+
+  .card-projetos div h3 {
+   padding-right: 650px;
+  }
+
+  .card-projetos div p {
+    font-size: 14px;
+  }
+
    .coluna-secundaria {
   margin-left: 40px;
   }
@@ -147,18 +166,59 @@
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     width: 50%;
-    height: 200px;
     margin-bottom: 16px;
     margin-right: 16px;
+    padding: 8px;
   }
+   .icone-pasta {
+    margin-left: 8px;
+    display: flex;
+    flex-direction: row;
+   }
+   .icone-pasta h4 {
+    margin: 8px;
+    display: flex;
+    align-items: center;
+   }
+
+   .p-projeto1 {
+    padding: 8px;
+    flex-direction: column;
+   }
+
+   .icones-projeto {
+    margin-left: 8px;
+    display: flex;
+    flex-direction: row;
+   }
+   .estrela {
+   padding-right: 24px;
+   display: flex;
+   flex-direction: row;
+   }
+   .estrela p {
+    margin: 8px;
+    display: flex;
+    align-items: center;
+   }
+
+   .compartilhar {
+    display: flex;
+   flex-direction: row;
+   }
+   .compartilhar p {
+    margin: 8px;
+    display: flex;
+    align-items: center;
+   }
+
   .card-dois{
     background: #302F3D; 
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     width: 50%;
-    height: 200px;
     margin-bottom: 16px;
-    
+    padding: 8px;
   }
   .card-postagem-recente {
     background: #302F3D; 
@@ -167,8 +227,13 @@
     width: 900px;
     height: 80px;
     margin-bottom: 16px;
-    
-  }
+    display: flex;
+    }
+    .card-postagem-recente div {
+    display: flex;
+    align-items: center;
+    margin: 28px;
+    }
   .card-ultima-postagem {
     background: #302F3D; 
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
